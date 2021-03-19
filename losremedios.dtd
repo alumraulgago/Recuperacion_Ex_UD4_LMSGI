@@ -1,0 +1,14 @@
+<!ELEMENT Remedios (pedido*)>
+<!ELEMENT pedido (sucursal, articulo+)>
+<!ELEMENT sucursal (codigoSucursal, direccion, trabajador, fechaPedido, observaciones)>
+<!ELEMENT codigoSucursal (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT trabajador (#PCDATA)>
+<!ELEMENT fechaPedido (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT articulos (codigoArticulo, numeroUnidad, precioUnidad, observacionesPedido, revision)>
+<!ELEMENT codigoArticulo (#PCDATA)>
+<!ELEMENT numeroUnidad (#PCDATA)>
+<!ELEMENT precioUnidad (#PCDATA)>
+<!ELEMENT observacionesPedido (#PCDATA)>
+<!ELEMENT revision (#PCDATA)>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlns:xsi = 'RemediosSA' xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation = "losremedios.xsd"></xmlns:xsi>
+<!DOCTYPE Remedios SYSTEM "losremedios.dtd">
+<Remedios>
+    <pedido>
+        <sucursal>
+            <codigoSucursal></codigoSucursal>
+            <direccion>Calle Manolete, Nº5</direccion>
+            <trabajador>Miguel del Pino</trabajador>
+            <fechaPedido>28-06-2018</fechaPedido>
+            <observaciones>Urgente</observaciones>
+        </sucursal>
+        <articulo>
+            <codigoArticulo></codigoarticulo>
+            <numeroUnidad>40</numeroUnidad>
+            <precioUnidad>50.22</precioUnidad>
+            <observacionesPedido>Artículo usado para la diversión infantil</observacionesProducto>
+            <revision>10</revision>
+        </articulo>
+    </pedido>
+</Remedios>
